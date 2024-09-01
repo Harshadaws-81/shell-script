@@ -1,14 +1,15 @@
 #!/bin/bash
 
-USERID=$(id -u)
 
 # VALIDATE(){
 #     echo "exit status: $1"
 # }
+USERID=$(id -u)
+#echo "User Id is : $USERID"
 
-if[ $USERID -ne 0 ]
-then 
-    echo "Please run the script with Root Privileges"
+if [ $USERID -ne 0 ]
+then
+    echo "Please run the script with Root privileges"
     exit 1
 fi
 

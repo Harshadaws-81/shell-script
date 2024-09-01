@@ -1,11 +1,11 @@
 #!/bin/bash
 
-
-# VALIDATE(){
-#     echo "exit status: $1"
-# }
 USERID=$(id -u)
 #echo "User Id is : $USERID"
+
+VALIDATE(){
+    echo "exit status: $1"
+}
 
 if [ $USERID -ne 0 ]
 then

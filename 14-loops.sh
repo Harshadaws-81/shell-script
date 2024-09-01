@@ -5,7 +5,8 @@
 #     echo $i
 # done
 
-for i in {0..27}
+# Modified
+for i in {0..27} # 0 - 27
 do
     echo $i
 done

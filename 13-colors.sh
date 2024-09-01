@@ -4,11 +4,12 @@ USERID=$(id -u)
 N="\e[0m"
 R="\e[31m"
 G="\e[32m"
+P="\e[34m"
 
 CHECK_ROOT(){
     if [ $USERID -ne 0 ]
     then
-        echo "Please run the script with Root privileges"
+        echo -e "$P Please run the script with Root privileges $N"
         exit 1
     fi
 }

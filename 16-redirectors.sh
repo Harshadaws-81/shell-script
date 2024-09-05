@@ -31,3 +31,17 @@ VALIDATE(){
 }
 
 CHECK_ROOT
+
+for PACKAGE in $@
+do
+    dnf list installed $PACKAGE &>>$LOG_FILE 
+    if [ $? -ne 0 ]
+    then 
+        echo -e "$PACKAGE $R is not installed... $N going to install" &>>$LOG_FILE
+        dnf install $PACKAGE -y &>>$LOG_FILE
+        VALIDATE $? "Installing $PACKAGE"
+    else
+        echo -e "$PACKAGE $Y is already installed ... $N nothing to do" &>>$LOG_FILE
+    fi
+done
+

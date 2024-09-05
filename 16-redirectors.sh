@@ -30,7 +30,17 @@ VALIDATE(){
     fi
 }
 
+USAGE(){
+    echo -e "$R USAGE:: $N sudo sh 16-redirectors.sh - PACKAGE1 PACKAGE2 ..."
+    exit 1
+}
+
 CHECK_ROOT
+
+if [ $# -ne 0 ]
+then 
+    USAGE
+fi
 
 for PACKAGE in $@
 do

@@ -31,7 +31,7 @@ VALIDATE(){
 }
 
 USAGE(){
-    echo -e "$R USAGE:: $N sudo sh 16-redirectors.sh - PACKAGE1 PACKAGE2 ..."
+    echo -e "$R USAGE:: $N sudo sh 16-redirectors.sh - PACKAGE1 PACKAGE2 PACKAGE3..."
     exit 1
 }
 
@@ -42,7 +42,7 @@ then
     USAGE
 fi
 
-for PACKAGE in $@
+for PACKAGE in $@ # $@ refers to all arguments passed through to it
 do
     dnf list installed $PACKAGE &>>$LOG_FILE 
     if [ $? -ne 0 ]

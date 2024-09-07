@@ -12,4 +12,7 @@ then
     echo -e "$SOURCE_DIR $G exists $N"
 else
     echo -e "$SOURCE_DIR $R doesnot exist $N"
+    exit 1
 fi
+
+ 

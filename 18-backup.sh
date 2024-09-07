@@ -19,4 +19,17 @@ if [ $# -lt 2 ]
 then
     USAGE
 fi
+ 
+if [ ! -d $SOURCE_DIR ]
+then 
+    echo "$SOURCE_DIR does not exist please check"
+fi
+
+if [ ! -d $DEST_DIR ]
+then
+    echo "$DEST_DIR does not exist please check"
+fi
+
+FILES=$(find ${SOURCE_DIR} -name "*.log" -mtime +14)
+
 

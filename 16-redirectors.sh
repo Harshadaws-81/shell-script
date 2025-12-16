@@ -39,7 +39,7 @@ echo "Script started executing at: $(date)" | tee -a $LOG_FILE
 
 CHECK_ROOT
 
-if [ $# -eq 0 ]
+if [ $# -eq 0 ]   # No of Arguments passed is 0
 then 
     USAGE
 fi

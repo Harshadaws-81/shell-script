@@ -13,3 +13,4 @@ do
     fi
 done <<< $DISK_USAGE
 
+# disk usage script to check the disk usage and alert if it is more than the threshold value.

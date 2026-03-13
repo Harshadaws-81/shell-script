@@ -40,3 +40,5 @@ do
     fi
 
 done
+
+# using loops to install multiple packages in one go

@@ -23,3 +23,5 @@ echo "Files: $FILES"
     echo "Deleting file: $file"
     rm -rf $file
  done <<< $FILES
+
+ # CRONTAB - script to delete the log files which are older than 14 days. 

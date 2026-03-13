@@ -11,3 +11,5 @@ echo "Fourth Brand is : ${Brands[3]}"
 echo "Fifth Brand is : ${Brands[4]}"
 
 echo "Name of Brands : ${Brands[@]}"
+
+# in scripting the using of Data types is very minimal.

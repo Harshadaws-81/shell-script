@@ -57,3 +57,6 @@ do
     fi
 done
 
+# redirectors are used to redirect the output of the command to a file.
+# By default it redirects only the SUCCESS output.
+

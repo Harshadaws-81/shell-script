@@ -6,4 +6,4 @@ echo "Dinesh:: I am doing great Suresh. What's going on?"
 echo "Suresh:: I started learning Shell Script Dinesh"
 
 
-It's very good improvement Harsha .. Go onn
+# It's very good improvement Harsha .. Go oonnn

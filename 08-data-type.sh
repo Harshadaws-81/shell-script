@@ -6,4 +6,4 @@ NUMBER2=$2
 
 MULTIPLICATION=$(($NUMBER1*$NUMBER2))
 
-echo "Total of $NUMBER1 and $NUMBER2 is : $MULTIPLICATION"
+echo "Multiplication of $NUMBER1 and $NUMBER2 is : $MULTIPLICATION"

@@ -47,3 +47,5 @@ then
 else
     echo "MySQL is already Installed .. Nothing to do"
 fi
+
+# using colors in the script to make the output more readable and attractive. 

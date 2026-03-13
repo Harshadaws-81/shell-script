@@ -43,3 +43,6 @@ then
 else
     echo "MySQL is already Installed .. Nothing to do"
 fi
+
+# function is a block of code which can be reused multiple times in the script.
+# when we are doing something repeatedly , we can put that code in function.

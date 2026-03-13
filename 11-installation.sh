@@ -35,3 +35,5 @@ then
 else
     echo "MYSQL is already installed nothing to do.."
 fi
+
+# script to check the installation , if not installed then install the package.

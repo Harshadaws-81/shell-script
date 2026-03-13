@@ -12,3 +12,5 @@ read PASSWORD
 
 echo "Password entered is : $PASSWORD
 
+# for confidential , & is used to run the command in background and it will not show the password.
+

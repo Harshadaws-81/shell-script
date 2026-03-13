@@ -2,7 +2,7 @@
 
 # index starts from 0 and the size is 5
 
-Brands=("addidas" "nike" "urbon monkey" "levis" "bmw") # array
+Brands=("andamen" "new balance" "urbon monkey" "levis" "bmw") # array
 
 echo "First Brand is : ${Brands[0]}"
 echo "Second Brand is : ${Brands[1]}"

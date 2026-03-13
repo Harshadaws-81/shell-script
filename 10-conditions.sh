@@ -8,5 +8,6 @@ else
     echo "Given number : $NUMBER is greater than 20"
 fi
 
+# conditions are used to check the condition and execute the code based on the condition.
 
 

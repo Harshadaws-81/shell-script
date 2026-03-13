@@ -60,3 +60,4 @@ else
     echo "No Files older than $DAYS"
 fi
 
+# backup script to backup the log files which are older than 14 days.
